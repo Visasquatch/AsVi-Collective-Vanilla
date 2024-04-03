@@ -1,0 +1,83 @@
+body{
+    background-color: rgb(65, 65, 65);
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    margin: 0;
+}
+.logo{
+    font-size: x-large;
+}
+.arrow-next{
+    cursor: pointer;
+    font-size: 24px;
+    color: white;
+    background-color: rgba(0, 0, 0, 0.5);
+    padding: 10px;
+    border: none;
+    outline: none;
+    right: 0;
+}
+.arrow-prev{
+    cursor: pointer;
+    font-size: 24px;
+    color: white;
+    background-color: rgba(0, 0, 0, 0.075);
+    padding: 10px;
+    border: none;
+    outline: none;
+    right: 0;
+}
+.images{
+    width:"330" ;
+    height:"430";
+    
+}
+.footerEnd{
+    background-color: grey; 
+    color: #fff; 
+    text-align: center; 
+    padding: 10px;
+    font-size: smaller;
+}
+.back{
+    color: white;
+}
+.carousel-container {
+    width: 200%; 
+    height: 20%;
+    overflow: hidden;
+    position: relative;
+    max-width: 100%;
+}
+
+.carousel-wrapper {
+    display: flex;
+    transition: transform 0.5s ease-in-out;
+    background-image: url(1.jpg);
+}
+
+.carousel-item {
+    min-width: 100%;
+    box-sizing: border-box;
+    background-image: url(1.jpg);
+}
+
+.carousel-btn {
+    position: absolute;
+    top: 30px;
+    transform: translateY(-50%);
+    cursor: pointer;
+    font-size: 24px;
+    color: white;
+    background-color: rgba(0, 0, 0, 0.5);
+    padding: 10px;
+    border: none;
+    outline: none;
+}
+
+.prev-btn {
+    left: 0;
+}
+
+.next-btn {
+    right: 0;
+}
