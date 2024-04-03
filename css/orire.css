@@ -10,7 +10,7 @@ body{
     cursor: pointer;
     font-size: 24px;
     color: white;
-    background-color: rgba(0, 0, 0, 0.5);
+    background-color: rgba(0, 0, 0, 0.075);
     padding: 10px;
     border: none;
     outline: none;
