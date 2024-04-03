@@ -40,6 +40,8 @@ button{
 .signupbutton{
     text-decoration: none;
     color: black;
+    height: 48px;
+    width: 15800px;
 }
 
 .Alreadyacc{
