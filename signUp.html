@@ -14,7 +14,7 @@
 
     <section align="center" style="padding-left: 450px;">
         <fieldset style="width: 400px" align="center">
-       <legend align="center" style="font-size: 20px; color: white;" class="background-color">Sign Up here</legend><br></tr>
+       <legend align="center" style="font-size: 20px; color: black;" class="background-color">Sign Up here</legend><br></tr>
       <form method="post" id="signUpform">
     <label for="email"></label><br>
     <input type="email" id="email" name="email" required placeholder="e-mail"><br>
@@ -35,23 +35,21 @@
     </select>
     <label for="pNumber"></label>
     <input type="text" class="pNumber" name="pNumber" required placeholder="Phone Number">
-    <br><br><br>
-    <button onclick="confirmpasword()" id="submit" class="signupbutton">
+    <br><br>
+    <button onclick="confirmpassword(event);openNewArrivalsPage()" id="submit" class="signupbutton">
         <a class="signupbutton">Sign Up</a></button>
 </form><br></fieldset></section>   
 <section align="center" style="padding-top: 50px;">
-      <a href="https://www.facebook.com/login"class="facebook"><button class="facebook"><img src="img/Facebook.png" > Sign up with Facebook</button></a>
-      <a href="https://www.google.com/signin" class="google"><button class="google"><img src="img/Google.png" >Sign up with Google</button></a>      
-    </section><br><br><br>
-    <p class="Alreadyacc" align="center">Already have an account? <a href="login.html" class="loginb">Login</a>
-        <br><br>
+      <a href="https://www.facebook.com/login"><button class="facebook"><img src="img/Facebook.png" > Sign up with Facebook</button></a>
+      <a href="https://accounts.google.com/Login"><button class="google"><img src="img/Google.png" >Sign up with Google</button></a>      
+    </section><br>
+    <div class="bottom-container" align="center">
+    <p class="Alreadyacc" align="center">Already have an account? 
+    <a href="login.html" class="loginb">Login</a></p></div>
+    <div class="bottom-container" align="center">
+        <p align="center">
         <a class="guestLogin" href="newArrivals.html">Login as Guest</a>
-    </p>
+    </p></div>
 </table>
- <div id="welcome" style="display: none;">
-      <p>Welcome to AsVi Collective</p>
-</div>
-
-
     </body>
 </html>

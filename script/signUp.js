@@ -1,17 +1,22 @@
 let locked = true;
-function confirmpassword(){
+function confirmpassword(event){
+    event.preventDefault();
 const pass = document.getElementById('password').value;
-const confirmp = document.getElementById('confirm-password')
+const confirmp = document.getElementById('confirm-password').value;
 
 if (pass===confirmp){
-    document.getElementById('signSection').style.display = "none";
-    document.getElementById('welcome').style.display = "block";
     locked = false;
+    alert("Sign up successful")
+    openNewArrivalsPage()
 } else {
-    prompt("Password doesn't match")
-    event.preventDefault()
-    return;
+    alert("Password doesn't match")
     locked = true;
 }
-}
-//DOESN'T WORK!!!!!!!!!!!
+    }
+function openNewArrivalsPage(){
+    if (!locked){
+window.location.href = "newArrivals.html";
+ }
+    }
+
+

@@ -6,7 +6,7 @@ body{
 }
 
 .background-color{
-    background-color: rgba(128, 128, 128, 0.726);
+    background-color: rgba(128, 128, 128, 0.267);
 }
 h1{
     font-size: 29px;
@@ -22,13 +22,29 @@ button{
     height: 45px;
 }
 .facebook{
-    background-color: rgba(37, 37, 212, 0.822);
+    background-color:#3b5998;
     color: white;
-    border-color:rgba(37, 37, 212, 0.822) ;
+    border-color: #3b5998; 
+    text-align: center;  
+    padding: 10px 20px;
 }
+
+.facebook img {
+    vertical-align: middle; 
+    margin-right: 10px; 
+}
+
 .google{
     color: rgb(78, 78, 78);
     background-color: white;
+    border-color: white;
+    text-align: center;  
+    padding: 10px 20px;
+}
+
+.google img {
+    vertical-align: middle; 
+    margin-right: 10px; 
 }
 
 .signupbutton{
@@ -36,20 +52,30 @@ button{
     color: black;
     height: 45px;
     width: 158px;
+    background-color: grey;
+    border-color: rgba(128, 128, 128, 0.267);
+}
+
+.bottom-container{
+    display: flex;
+    justify-content: center;
 }
 
 .Alreadyacc{
-    font-size: smaller;
-    color: white;
-    border: 30px;
-    border-color: rgba(245, 6, 6, 0.904);;
+    font-size: 20px;
+    color: black;
+    background-color: rgba(128, 128, 128, 0.267);
+    border-color: #222222;
 }
 
 .guestLogin{
-    font-size: smaller;
+    font-size: 15px;
     color: black;
+    background-color: rgba(128, 128, 128, 0.267);
+    border-color: #222222;
 }
 
 .loginb{
     color: black;
+    font-size: 20px;
 }
