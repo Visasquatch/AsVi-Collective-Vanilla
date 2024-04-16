@@ -4,9 +4,10 @@
     <head>
         <link rel='icon' type="img" href="img/av icon mock.jfif">
         <link rel='stylesheet' href="css/signUp.css">
+        <script src="script\signUp.js"></script>
         </head>
     <body style="background-image: url(img/LeFleur\ rack\ cropped.jpg); margin-top: 0;">
-        <section align="center" class="Signsection">
+        <section align="center" class="Signsection" id="signSection">
             <p>AsVi Collective</p><br></section>
     <table><tr>
           <br></tr>
@@ -35,18 +36,21 @@
     <label for="pNumber"></label>
     <input type="text" class="pNumber" name="pNumber" required placeholder="Phone Number">
     <br><br><br>
-    <button type="submit" id="submit" style="height: 48px;"><a href="userHomePage.html" class="signupbutton">Sign Up</a></button><br>
+    <button onclick="confirmpasword()" id="submit" class="signupbutton">
+        <a class="signupbutton">Sign Up</a></button>
 </form><br></fieldset></section>   
 <section align="center" style="padding-top: 50px;">
-      <a href="https://www.facebook.com/login"><button class="facebook"><img src="img/Facebook.png"> Sign up with Facebook</button></a>
-      <a href="https://www.google.com/signin"><button class="google"><img src="img/Google.png">Sign up with Google</button></a>
-    </section><br><br><br><br>
+      <a href="https://www.facebook.com/login"class="facebook"><button class="facebook"><img src="img/Facebook.png" > Sign up with Facebook</button></a>
+      <a href="https://www.google.com/signin" class="google"><button class="google"><img src="img/Google.png" >Sign up with Google</button></a>      
+    </section><br><br><br>
     <p class="Alreadyacc" align="center">Already have an account? <a href="login.html" class="loginb">Login</a>
         <br><br>
         <a class="guestLogin" href="newArrivals.html">Login as Guest</a>
     </p>
 </table>
-
+ <div id="welcome" style="display: none;">
+      <p>Welcome to AsVi Collective</p>
+</div>
 
 
     </body>
