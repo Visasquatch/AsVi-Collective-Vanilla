@@ -64,14 +64,14 @@ button{
 .Alreadyacc{
     font-size: 20px;
     color: white;
-    background-color: rgba(128, 128, 128, 0.267);
+    background-color: rgba(0, 0, 0, 0.267);
     border-color: #222222;
 }
 
 .guestLogin{
     font-size: 15px;
     color: black;
-    background-color: rgba(128, 128, 128, 0.267);
+    background-color: rgba(0, 0, 0, 0.267);
     border-color: #222222;
 }
 

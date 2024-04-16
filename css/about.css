@@ -1,27 +1,36 @@
 body{
-    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
-    background-color: rgb(65, 65, 65);
+    margin: 0;
 }
-.aboutSection{
+
+.video-background {
+    position: relative;
+    width: 100%;
+    height: 100vh;
+    overflow: hidden;
+}
+
+.video {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+.about-content {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    z-index: 1;
     color: white;
-    align-content: center;
-    padding-left: 300px;
-    padding-right: 300px;
+    text-align: center;
+    padding: 20px;
+    background-color: rgba(0, 0, 0, 0.5);
 }
-.visitUs1{
-    text-decoration: none;
-}
+
 .back{
     color: white;
     background-color: grey;
-}
-.video{
-    width: 400px;
-    height: 400px;
-    z-index: -1;
-    object-fit: cover;
-}
-.about{
-    z-index: 1;
-    text-align: center;
 }

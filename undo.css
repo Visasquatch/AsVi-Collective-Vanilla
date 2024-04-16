@@ -1,0 +1,65 @@
+.video-container {
+    position: relative;
+}
+
+.video {
+    width: 100%;
+}
+
+.about {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    color: white;
+    text-align: center;
+    padding: 20px;
+    background-color: rgba(0, 0, 0, 0.5); /* Semi-transparent black background */
+}
+
+
+
+
+
+
+
+
+
+
+
+body {
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    background-color: rgb(65, 65, 65);
+}
+
+.aboutSection {
+    position: relative;
+    color: white;
+    text-align: center;
+    padding-left: 300px;
+    padding-right: 300px;
+}
+
+.visitUs1 {
+    text-decoration: none;
+}
+
+.back {
+    color: white;
+    background-color: grey;
+}
+
+.video {
+    width: 1300px;
+    height: 550px;
+    z-index: -1;
+}
+
+.about {
+    position: absolute;
+    top: 20%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    z-index: 1;
+    text-align: center;
+}
